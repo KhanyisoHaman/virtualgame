@@ -8,13 +8,22 @@ body {
     margin: 0;
 }
 
+.main-nav {
+    text-transform: uppercase;
+}
+
+.main-content h1 {
+    font-family: 'Bree Serif', serif;
+    color: #5185e0;
+}
+
 .inner {
     background-image: url(../images/bg.jpg);
     background-size: 100em;
     width: 100%;
     background-size: cover;
     background-position: center;
-    height: 667px;
+    height: 507px;
     background-repeat: no-repeat;
     margin-top: 0px;
     padding-top: 25px;
@@ -27,16 +36,18 @@ li {
     padding: 0 20px
 }
 
-a {
+.inner a {
     text-decoration: none;
-    font-size: x-large;
+    font-size: large;
     color: white;
     font-family: 'Raleway', sans-serif;
 }
 
 .img-featured {
     width: 120px;
-    border-radius: 50%
+    border-radius: 50%;
+    border-width: thick;
+    border: 3px solid white;
 }
 
 .hero {
@@ -54,4 +65,108 @@ a {
     font-size: 80px;
     color: white;
     margin-bottom: 0px;
+}
+
+.intro {
+    width: 500px;
+    text-align: center;
+    margin-left: 450px;
+    font-size: 20px;
+}
+
+.btn-callout {
+    height: 35px;
+    background: #c54e77;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.btn-info {
+    background-color: #5185e0;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: white;
+}
+
+.card {
+    text-align: center;
+    border-radius: 2px;
+    border-width: thin;
+    border: 1px solid rgb(78, 78, 78);
+    padding-bottom: 32px;
+}
+
+a {
+    color: #4a78e4;
+    text-decoration: none;
+}
+
+.card_entertain {
+    padding-top: 59px;
+    padding-bottom: 31px;
+    border-width: thin;
+    border: 1px solid rgb(78, 78, 78);
+    padding-bottom: 32px;
+    border-radius: 5px;
+}
+
+.card_art{
+    padding-top: 13px;
+    margin-left: 0px;
+    border-width: thin;
+    border: 1px solid rgb(78, 78, 78);
+    padding-bottom: 32px;
+    border-radius: 5px;
+}
+
+.card_education {
+    padding-top: 40px;
+    border-width: thin;
+    border: 1px solid rgb(78, 78, 78);
+    padding-bottom: 32px;
+    border-radius: 5px;
+}
+
+.card_sim_train {
+    padding-top: 32px;
+    border-width: thin;
+    border: 1px solid rgb(78, 78, 78);
+    padding-bottom: 34px;
+    border-radius: 5px;
+}
+
+.card_social {
+    border-width: thin;
+    border: 1px solid rgb(78, 78, 78);
+    padding-bottom: 32px;
+    border-radius: 5px;
+}
+
+.card_game {
+    padding-bottom: 36px;
+    padding-top: 3px;
+    border-width: thin;
+    border: 1px solid rgb(78, 78, 78);
+    padding-bottom: 32px;
+    border-radius: 5px;
+}
+
+td {
+    width: 300px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.main-content {
+    
 }
